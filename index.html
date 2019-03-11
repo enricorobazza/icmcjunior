@@ -1,11 +1,199 @@
 <html>
 
+	<head>
+		<title>Apresentação ICMC Júnior</title>
+
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+		<script src="bootstrap/jquery.js"></script>
+		<script src="bootstrap/bootstrap.js"></script>
+		<script src="bootstrap/panelsnap.js"></script> 
+	</head>
+
+
+	<div id="header" class="blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1 col-md-0"></div>
+				<div class="col-lg-1 col-md-2">
+					<img src="images/enrico logo.png" id="logo" alt="logo"/>
+				</div>
+				<div class="col-lg-4 col-md-4"></div>
+				<div class="col-lg-6 col-md-6 my-auto menu">
+					<div id="inicio_btn" class="btn">INÍCIO</div>
+					<div id="sobre_btn" class="btn">SOBRE</div>
+					<div id="carreira_btn" class="btn">EXPERIÊNCIAS</div>
+					<div id="habilidades_btn" class="btn">HABILIDADES</div>
+				</div><!--menu-->
+			</div><!--row-->
+		</div><!--container-->
+	</div><!--header-->
+
 	<body>
-		<ul>
-			<li>Alo</li>
-			<li>Tchau</li>
-		</ul>
+
+		<div id="circle"></div>
+
+		
+
+		<div id="area_1">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-lg-2"></div>
+
+					<div class="col-lg-3"><img src="images/computador.png" alt="computador"></div>
+
+					<div class="col-lg-2"></div>
+
+					<div class="col-lg-5 blue">
+						<h1>Olá,<br>eu sou o <span class="green">Enrico</span></h1>
+						<h1 id="text_change">Apaixonado por PC <div id="traco"></div></h1> 
+					</div>
+
+				</div><!--row-->
+
+			</div><!--content-->
+
+		</div><!--area_1-->
+
+		<div id="area_2">
+			<div class="container">
+					<div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<div class="row">
+									<div class="col-lg-5" id="photos_container">
+										<div id="photo_circle_1"></div>
+										<div id="photo_circle_2"></div>
+										<div id="photo_circle_3"></div>
+									</div>
+									<div class="col-lg-7" id="about_box">
+										<h2>Sobre</h2>
+										Meu nome é Enrico Robazza, tenho 21 anos e estou cursando Engenharia de Computação na USP São Carlos. <br><br>
+
+										Sempre fui apaixonado por computadores, desde bem pequeno, e comecei a aprender sobre programação aos 11 anos de idade.
+										<br><br>
+										Em minhas horas vagas, gosto de viajar com a minha família, sair com minha namorada e amigos, e de jogar vídeo game, principalmente Fortnite (me adicionem: Robazzas).
+									</div>
+								</div><!--row-->
+							</div>
+							<div class="col-lg-2"></div>
+
+					</div><!--row-->
+			</div><!--container-->
+
+		</div>
+
+
+		<div id="area_3">
+
+			<div class="container">
+				<h1 class="title">Experiências</h1>
+				<div class="row">
+					<div class="col-lg-4 about_section_container">
+						<div class="about_section">
+							<img src="images/rbz digital logo.png">
+							<div class="about_text">
+									Web Developer e co-fundador da empresa RBZ Digital, criada para prestar serviços de mídias e soluções em tecnologia para pequenas e médias empresas. 
+							</div>
+							<div class="about_button" onclick="window.open('https://www.rbzdigital.com.br/','_blank')" >
+								VISITAR SITE
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="col-lg-4 about_section_container">
+						<div class="about_section">
+							<img src="images/eesc logo.png">
+							<div class="about_text">
+									Atualmente cursando o curso de Engenharia de Computação pela Escola de Engenharia de São Carlos (EESC-USP), com ano de ingresso em 2016. 
+							</div>
+							<div onclick="window.open('http://www.eesc.usp.br/portaleesc/index.php?option=com_content&view=article&id=209&Itemid=291','_blank')" class="about_button">
+								SAIBA MAIS
+							</div>
+						</div>
+					</div>
+
+					
+					<div class="col-lg-4 about_section_container">
+						<div class="about_section">
+								<img src="images/etep logo.png">
+								<div class="about_text">
+										Formado em 2014 como Técnico em Informática pela Escola Técnica Professor Everardo Passos.
+								</div>
+								<div onclick="window.open('http://www.etep.edu.br/curso/tecnico-em-informatica/','_blank')" class="about_button">
+									SAIBA MAIS
+								</div>
+						</div>
+					</div>
+
+					
+
+				</div><!--row-->
+
+			</div><!--container-->
+
+		</div><!--area_3-->
+
+
+		<div id="area_4">
+				<div id="circle2"> Habilidades </div>
+
+				<div class="container">
+					<div class="row" style="margin-top:70px;">
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2 back-green skill">
+								<div id="html" class="skill_image"></div>
+						</div>
+						<div class="col-lg-2 back-blue skill">
+								<div id="css" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2 back-green skill">
+								<div id="php" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2 back-blue skill">
+								<div id="js" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2"></div>
+					</div><!--row-->
+
+					<div class="row">
+						<div class="col-lg-2"></div>
+						<div class="col-lg-2 back-blue skill">
+								<div id="jquery" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2 back-green skill">
+								<div id="bootstrap" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2 back-blue skill">
+								<div id="ps" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2 back-green skill">
+								<div id="wordpress" class="skill_image"></div>
+							</div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div><!--container-->	
+
+		</div><!--area_4-->
+
+		<footer class="page-footer">
+
+			<div id="arrow"></div>
+			<div class="footer-copyright text-center py-3" id="footer">© 2019 Copyright:
+    			<a href="https://icmcjunior.com.br/"> ICMC Júnior</a>
+  			</div>
+			
+		</footer>
+		<!-- Footer -->
+
 	</body>
+
+	<script src="index.js"></script>
 
 
 </html>
